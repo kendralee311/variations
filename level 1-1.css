@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }
+

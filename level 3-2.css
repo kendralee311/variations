@@ -1,0 +1,97 @@
+h1 {
+    border: 2px solid maroon;
+    padding: 25px;
+    color: maroon;
+    background-color: #ba6d5f;
+    border-radius: 10px;
+}
+
+h2 {
+    color: maroon;
+    float: right;
+    margin: 30px;
+    padding-top: 0px;
+}
+
+h3 {
+    color: maroon;
+    padding-left: 300px;
+}
+
+.one {
+    float: left;
+    margin-left: 25px;
+    background-color: #c5926e;
+    border-radius: 10px;
+    padding: 15px;
+    color:maroon;
+}
+
+.two {
+    float: left;
+    margin-left: 200px;
+    background-color: #c5926e;
+    border-radius: 10px;
+    padding: 15px;
+    color:maroon;
+}
+
+.three {
+    float: left;
+    margin-left: 400px;
+    background-color: #c5926e;
+    border-radius: 10px;
+    padding: 15px;
+    color:maroon;
+}
+
+.four {
+    float: left;
+    margin-left: 600px;
+    background-color: #c5926e;
+    border-radius: 10px;
+    padding: 15px;
+    color:maroon;
+}
+
+.five {
+    float: left;
+    margin-left: 800px;
+    background-color: #c5926e;
+    border-radius: 10px;
+    padding: 15px;
+    color:maroon;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }
+

@@ -1,0 +1,52 @@
+.main {
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: lora;
+    line-height: 0.8;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    letter-spacing: 5px;
+}
+
+@keyframes example {
+    0%   {font-size:x-small; color:#c5926e; left:0px; top:0px;}
+    25%  {font-size:small; color:aliceblue; left:200px; top:0px;}
+    50%  {font-size:medium; color:blue; left:200px; top:200px;}
+    75%  {font-size:large; colour: purple; left:0px; top:200px;}
+    100% {font-size:x-large; color:blueviolet; left:0px; top:0px;}
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }

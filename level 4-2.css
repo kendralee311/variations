@@ -1,0 +1,66 @@
+html {
+    font-family: Hubballi;
+    letter-spacing: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.6;
+    background-color: lavender;
+}
+
+h1 {
+    text-align: center;
+    color:blueviolet;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+em {
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size:x-large;
+    color: blueviolet;
+}
+
+.main {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavender;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }
+
+
+
+

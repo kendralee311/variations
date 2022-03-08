@@ -1,0 +1,98 @@
+
+
+
+h1 {
+    border-style:dashed ;
+    text-align: right; 
+    padding: 10px;
+    background-color: pink;
+    color: magenta;
+    font-family: DPFruitLoops;
+}
+
+h3 {
+    color: magenta;
+    float:right;
+    margin-right: 10px;
+    font-family: Lora;
+}
+
+.one {
+    text-align: center;
+    font-family: GrutchShaded;
+    color: palevioletred;
+    padding-top: 50px;
+}
+
+.font {
+    color: magenta;
+    font-size:larger;
+    font-family: DPFruitLoops;
+}
+
+.two {
+    text-align: left;
+    font-family: GrutchShaded;
+    color: rgb(196, 61, 106);
+    padding-left: 25px;
+}
+
+.three {
+    text-align: right;
+    font-family: GrutchShaded;
+    color: rgb(160, 29, 73);
+    padding-right: 25px;
+}
+
+.four {
+    text-align: left;
+    font-family: GrutchShaded;
+    color: rgb(168, 41, 84);
+    padding-left: 105px;
+}
+
+.five {
+    text-align: left;
+    font-family: GrutchShaded;
+    color: rgb(131, 12, 52);
+    padding-left: 305px;
+}
+
+.six {
+    text-align: left;
+    font-family: GrutchShaded;
+    color: rgb(83, 1, 29);
+    padding-left: 700px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }

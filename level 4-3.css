@@ -1,0 +1,53 @@
+html {
+    font-family: Space Grotesk;
+    background-color: #7f903c;
+    padding: 25px;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+em {
+    color: lightgreen;
+}
+
+strong {
+    color: darkgreen;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7f903c;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }
+
+
+
+

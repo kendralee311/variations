@@ -1,0 +1,77 @@
+h1 {
+  color: red
+}
+
+h2 { 
+  color: orangered;
+  padding: 50px;
+}
+
+.three {
+  color: orange;
+  padding-bottom: 50px;
+  padding-left:100px;
+}
+
+.four {
+  color: orange;
+  padding-bottom: 50px;
+  padding-left:300px;
+}
+
+
+.five {
+  color: orange;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.six {
+  color: orange;
+  padding-bottom: 50px;
+  text-align: right;
+  padding-bottom: 200px;
+
+}
+
+.highlight {
+  color: orangered
+}
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }

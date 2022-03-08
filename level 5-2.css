@@ -1,0 +1,53 @@
+html {
+    font-family: Space Grotesk;
+    background-color: lightblue;
+    padding: 25px;
+}
+
+h1 {
+    color: darkcyan;
+    
+}
+
+em {
+    color: slateblue;
+}
+
+strong {
+    color: indigo;
+}
+
+div:hover {
+    letter-spacing: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }

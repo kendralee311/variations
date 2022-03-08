@@ -1,0 +1,107 @@
+html {
+    font-family: Hubballi;
+    letter-spacing: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.6;
+    background-color: lavender;
+}
+
+h1 {
+    text-align: center;
+    color:blueviolet;
+}
+
+h1:hover {
+    letter-spacing: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Lora;
+}
+
+h2:hover {
+    letter-spacing: 20px;
+}
+
+
+h4 {
+    font-family: Space Grotesk;
+}
+
+h4:hover {
+    letter-spacing: 20px;
+}
+
+
+.down {
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-size:x-large;
+    color: blueviolet;
+}
+
+.down:hover {
+    letter-spacing: 20px;
+}
+
+@keyframes downup {
+    from  {
+        background-color:red;skewY:(20deg);
+    }
+    to {
+        background-color:blue; skewY:(-20deg);
+    }
+}
+
+.main {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+p {
+    padding-bottom: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+}
+
+p:hover {
+    letter-spacing: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavender;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }
+
+
+
+

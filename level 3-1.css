@@ -1,0 +1,99 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:skyblue;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }
+
+
+html {
+    background-color: skyblue;
+    color: white;
+}
+  
+h1 {
+    padding-top: 10px;
+    padding-left: 575px;
+}
+
+h3 {
+    padding-left: 625px;
+}
+
+
+.highlight {
+    color: blue;
+}
+
+.two {
+    float: right;
+    margin-right: 25px;
+    background-color: lightblue;
+    border-radius: 25px;
+    padding: 20px;
+    color: blue;
+}
+
+.three {
+    padding-top: 200px;
+    padding-left: 575px;
+}
+
+.four {
+    float: left;
+    margin-left: 25px;
+    background-color: lightblue;
+    border-radius: 25px;
+    padding: 20px;
+    color: blue;
+}
+
+.five {
+    padding-top: 200px;
+    padding-left: 575px;
+}
+
+.six {
+    float: right;
+    margin-right: 25px;
+    background-color: lightblue;
+    border-radius: 25px;
+    padding: 20px;
+    color: blue;
+}  
+
+.seven {
+    padding-top: 300px;
+    padding-left: 575px;
+}
+
+
+
+
+
+

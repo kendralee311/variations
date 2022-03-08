@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://adamsfarms.com/wp-content/uploads/2020/04/Dyed-carnations.jpg); 
+    font-family: Space Grotesk;
+    padding: 100px;
+}
+
+.highlight {
+    font-family: Space Grotesk;
+    border: 5px solid black;
+    background-color: #ba6d5f;
+    padding: 30px;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: #ba6d5f;}
+    to {background-color:#c5926e;}
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }

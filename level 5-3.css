@@ -1,0 +1,144 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1503198515498-d0bd9ed16902?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max);
+}
+
+h1 {
+    padding-top: 50px;
+    padding-left: 200px;
+    font-family: Space Grotesk;
+    color: black;
+    
+}
+
+
+h3 {
+    font-family: Space Grotesk;
+    color: white;
+    float: right;
+    padding-right: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.one {
+    letter-spacing: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+strong {
+    color: black;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+.two {
+    letter-spacing: 5px;
+    font-family:Lora;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+h4 {
+    font-weight: 4000;
+    font-size: xx-large;
+    color: black;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+h2 {
+    font-weight: 4000;
+    color: white;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.three {
+    letter-spacing: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+em {
+    letter-spacing: 5px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.four {
+    letter-spacing: 1px;
+    font-family:'Times New Roman', Times, cursive;
+    padding-top: 40px;
+    padding-left: 350px;
+}
+
+.five {
+    letter-spacing: 1px;
+    font-family: Space Grotesk;
+    padding-top: 40px;
+    padding-left: 500px;
+    color: white;
+}
+
+.six {
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    padding-left: 700px;
+    color: white;
+}
+
+p {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 1000px;
+    padding-top: 80px;
+    color: black;
+    padding-bottom: 100px;
+    letter-spacing: 5px;
+    color: white;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: maroon;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid maroon;
+    padding: 14px 25px;
+    font-family: Space Grotesk;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+  .active {
+    background-color: #c5926e;
+  }
